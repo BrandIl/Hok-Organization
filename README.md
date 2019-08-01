@@ -25,10 +25,6 @@
  * email (Type: Email, max-length:50)
  * remarks  (Type: Email, max-length:50)
  
-##### Project
- * Name (Required, Type: string, max-length:25)
- * Organization (Required, Type: ObjectId)
-
 ##### PaymentMethod (Required at least 1 of the properties: bankAccount or creditCard)
  * bankAccount
     * bankId (Required, Type: Number, length: 2)
@@ -38,6 +34,12 @@
     * creditNumber (Required, Type: string)
     * expiringDate (Required, Type: Mm/yyyy)
     * cvv2 (Required, Type: string, length: 3)
+
+##### Project
+ * Name (Required, Type: string, max-length:25)
+ * Organization (Required, Type: ObjectId)
+
+
 
 ## Endpoints
 
