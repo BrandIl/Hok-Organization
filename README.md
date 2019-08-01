@@ -41,3 +41,16 @@
 | POST | /project | Create project |
 | GET | /project/:id/ | Get project |
 | PUT | /project/:id/ | Update project |
+
+
+## Page Navigation
+
+|  |  |
+| ------ | ------ |
+| / | Redirect to / organization |
+| /organization | Organization lists |
+| /organization/:id/edit | Edit organization details |
+| /organization/:id/view | View organization details |
+| /organization/:id/project | List of organization project |
+| /organization/:id/project/create | New organization project |
+
