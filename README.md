@@ -28,3 +28,16 @@
 ##### Project
  * Name (Required, Type: string, max-length:25)
  * Organization (Required, Type: ObjectId)
+
+
+## Endpoints
+
+|  |  |   |
+| ------ | ------ | ------ |
+| GET | /organization | Organization lists |
+| GET | /organization/:id/ | Get organization |
+| POST | /organization | Create organization |
+| PUT | /organization/:id/ | Update organization |
+| POST | /project | Create project |
+| GET | /project/:id/ | Get project |
+| PUT | /project/:id/ | Update project |
