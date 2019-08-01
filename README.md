@@ -29,6 +29,15 @@
  * Name (Required, Type: string, max-length:25)
  * Organization (Required, Type: ObjectId)
 
+##### PaymentMethod (Required at least 1 of the properties: bankAccount or creditCard)
+ * bankAccount
+    * bankId (Required, Type: Number, length: 2)
+    * branchId (Required, Type: string, length: 3)
+    * accountNumber (Required, Type: string)
+ * creditCard
+    * creditNumber (Required, Type: string)
+    * expiringDate (Required, Type: Mm/yyyy)
+    * cvv2 (Required, Type: string, length: 3)
 
 ## Endpoints
 
